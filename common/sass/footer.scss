@@ -1,0 +1,67 @@
+@charset "utf-8";
+
+footer{
+	height:212px;
+	position: relative;
+}
+
+.footer-tri{
+	width: 309px;
+	height: 193px;
+	display:inline-block;
+	position: absolute;
+	z-index: 3;
+}
+
+.footer-tri-left{
+
+	background-image: url(/common/images/footer/tri-left.png);
+	left: 0;
+	
+}
+
+.footer-tri-right{
+	background-image: url(/common/images/footer/tri-right.png);
+	right: 0;
+}
+
+.footer-center-tri{
+	background-image: url(/common/images/footer/tri-center.png);
+	width:1280px;
+	height: 211px;
+	position: relative;
+	z-index:2;
+	
+	ul{
+		position: absolute;
+		bottom: 80px;
+		text-align: center;
+		z-index: 5;
+		left: 50%;
+		margin-left: -40px;
+	}
+
+	li{
+		display: inline-block;
+		
+		&:first-child{
+			margin-right: 8px;
+		}
+	}
+
+
+	
+	small{
+		position: absolute;
+		bottom: 30px;
+		left: 50%;
+		z-index: 5;
+		color: #fff;
+		font-size: 11px;
+		margin-left: -42px;
+	}
+
+
+
+}
+

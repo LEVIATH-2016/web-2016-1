@@ -1,0 +1,53 @@
+@charset "utf-8";
+
+header{
+	height: 143px;
+	padding: 0 90px;
+	position:relative;
+	
+	.header-inner{
+		padding-top: 33px;
+		text-align: center;
+		
+		.logo-text{
+
+			float:left;
+			
+			img{
+				width : 173px;
+			}
+			
+		}
+
+		.logo-mark{
+			text-align: center;
+			position: absolute;
+			top:20px;
+			left:50%;
+			margin-left: -16px;
+			
+			img{
+				width: 33px;
+			}
+		}
+
+		nav{
+			float: right;
+			padding-top: 34px;
+			
+		}
+
+		li{
+			display: inline-block;
+			margin-left: 41px;
+			
+			a{
+				font-family: "Arial";
+				color: #000;
+				font-size: 18px;
+				display: block;
+			}
+		}
+
+	}
+}

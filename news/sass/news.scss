@@ -1,0 +1,174 @@
+@charset "utf-8";
+
+$newsColor_1: #003643;
+$newsColor_2: #4f6c77;
+$newsColor_3: #343935;
+
+@mixin backColor($colors){
+	background-color: rgba($colors, .7);
+}
+
+#news-page{
+	padding-top: 44px;
+}
+
+.news-background{
+	position: fixed;
+	top: 0;
+	z-index: -1;
+	
+}
+
+.news-background-left{
+	right: 0;
+}
+
+.news-background-right{
+	left: 0;
+}
+
+.news-wrap{
+	width: 1042px;
+	margin: 0 auto 100px;
+}
+
+.news-section-left{
+	float: left;
+}
+
+.news-section-right{
+	float: right;
+}
+
+.news-section{
+
+	$titleValue : 4px;
+
+	width: 510px;
+	position: relative;
+	color: #fff;
+	
+	&:nth-of-type(2){
+
+		margin-top: 88px;
+		
+	}
+
+	&:nth-of-type(n+3){
+		margin-top: 53px;
+	}
+	
+	.news-section-top{
+
+		height: auto;
+		padding: 65px 10px 10px;
+		margin-bottom: 2px;
+		
+	}
+
+	&:nth-of-type(3n+1){
+
+		.news-section-top{
+			@include backColor($newsColor_1);
+		}
+
+	}
+
+	&:nth-of-type(3n+2){
+
+		.news-section-top{
+			@include backColor($newsColor_2);
+		}
+
+	}
+
+	&:nth-of-type(3n+3){
+
+		.news-section-top{
+			@include backColor($newsColor_3);
+		}
+
+	}
+
+	.news-img{
+
+		position: absolute;
+		top: -44px;
+		left: 50%;
+		margin-left: -245px;
+	
+	}
+
+	time{
+		padding-left: $titleValue;
+		font-size: 15px;
+		margin-bottom: 8px;
+		display: block;
+	}
+
+	.news-title{
+		padding-left: $titleValue;
+		font-size: 22px;
+		padding-bottom: 7px;
+		border-bottom: 2px solid #fff;
+		line-height: 1.5;
+	}
+
+	.news-words{
+		@include backColor(#264e5a);
+
+		height: 144px;
+		margin: 6px 0 0;
+		overflow: scroll;
+		padding: 10px;
+		font-size: 14px;
+		line-height: 1.5;
+		
+		a{
+			color: #fff;
+			text-decoration: underline;
+		}
+	}
+
+	.news-sns{
+		height: 41px;
+		text-align: right;
+		padding: 6px 10px 0 0;
+		
+		.news-sns-list{
+			display: inline-block;
+			cursor: pointer;
+			
+		}
+
+		.news-sns-fb{
+			margin-left:10px;
+		}
+	}
+
+	&:nth-of-type(3n+1){
+
+		.news-sns{
+			@include backColor($newsColor_1);
+		}
+
+	}
+
+	&:nth-of-type(3n+2){
+
+		.news-sns{
+			@include backColor($newsColor_2);
+		}
+
+	}
+	
+	&:nth-of-type(3n+3){
+
+		.news-sns{
+			@include backColor($newsColor_3);
+		}
+
+	}
+}
+
+

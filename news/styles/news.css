@@ -1,0 +1,147 @@
+#news-page
+{
+    padding-top: 44px;
+}
+
+.news-background
+{
+    position: fixed;
+    z-index: -1; 
+    top: 0;
+}
+
+.news-background-left
+{
+    right: 0;
+}
+
+.news-background-right
+{
+    left: 0;
+}
+
+.news-wrap
+{
+    width: 1042px;
+    margin: 0 auto 100px;
+}
+
+.news-section-left
+{
+    float: left;
+}
+
+.news-section-right
+{
+    float: right;
+}
+
+.news-section
+{
+    position: relative;
+
+    width: 510px;
+
+    color: #fff;
+}
+.news-section:nth-of-type(2)
+{
+    margin-top: 88px;
+}
+.news-section:nth-of-type(n+3)
+{
+    margin-top: 53px;
+}
+.news-section .news-section-top
+{
+    height: auto;
+    margin-bottom: 2px; 
+    padding: 65px 10px 10px;
+}
+.news-section:nth-of-type(3n+1) .news-section-top
+{
+    background-color: rgba(0, 54, 67, .7);
+}
+.news-section:nth-of-type(3n+2) .news-section-top
+{
+    background-color: rgba(79, 108, 119, .7);
+}
+.news-section:nth-of-type(3n+3) .news-section-top
+{
+    background-color: rgba(52, 57, 53, .7);
+}
+.news-section .news-img
+{
+    position: absolute;
+    top: -44px;
+    left: 50%;
+
+    margin-left: -245px;
+}
+.news-section time
+{
+    font-size: 15px;
+
+    display: block; 
+
+    margin-bottom: 8px;
+    padding-left: 4px;
+}
+.news-section .news-title
+{
+    font-size: 22px;
+    line-height: 1.5; 
+
+    padding-bottom: 7px;
+    padding-left: 4px;
+
+    border-bottom: 2px solid #fff;
+}
+.news-section .news-words
+{
+    font-size: 14px;
+    line-height: 1.5; 
+
+    overflow: scroll;
+
+    height: 144px;
+    margin: 6px 0 0;
+    padding: 10px;
+
+    background-color: rgba(38, 78, 90, .7);
+}
+.news-section .news-words a
+{
+    text-decoration: underline; 
+
+    color: #fff;
+}
+.news-section .news-sns
+{
+    height: 41px;
+    padding: 6px 10px 0 0; 
+
+    text-align: right;
+}
+.news-section .news-sns .news-sns-list
+{
+    display: inline-block;
+
+    cursor: pointer;
+}
+.news-section .news-sns .news-sns-fb
+{
+    margin-left: 10px;
+}
+.news-section:nth-of-type(3n+1) .news-sns
+{
+    background-color: rgba(0, 54, 67, .7);
+}
+.news-section:nth-of-type(3n+2) .news-sns
+{
+    background-color: rgba(79, 108, 119, .7);
+}
+.news-section:nth-of-type(3n+3) .news-sns
+{
+    background-color: rgba(52, 57, 53, .7);
+}

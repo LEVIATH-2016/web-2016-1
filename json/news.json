@@ -1,0 +1,45 @@
+{
+    "news": [
+    {
+        "id": 5,
+        "image": "/common/images/news/news-img-1.jpg",
+        "title": "C90新作情報を公開しました。",
+        "date": "2016-08-09",
+        "category": "release",
+        "link": "",
+        "word": "C90新作情報を公開しました。詳しくは<a href='/release/'>こちらから</a>"
+    },{
+        "id": 4,
+        "image": "/common/images/news/news-img-1.jpg",
+        "title": "ORANGE★JAM様のdaydreamingに楽曲を提供しました。",
+        "date": "2016-08-09",
+        "category": "join",
+        "link": "",
+        "word": "ORANGE★JAM様のdaydreamingに楽曲を提供しました。詳しくは<a href='http://orange-jam.net/OREN003/' target='_blank'>こちらから</a>"
+    },{
+        "id": 3,
+        "image": "/common/images/news/news-img-1.jpg",
+        "title": "LILT RECORDS様のACE STRIKERSサウンドトラックにアレンジ楽曲を提供しました。",
+        "date": "2016-08-09",
+        "category": "join",
+        "link": "",
+        "word": "LILT RECORDS様のACE STRIKERSサウンドトラックにアレンジ楽曲を提供しました。詳しくは<a href='https://soundcloud.com/lilt-records/ace-strikers?utm_source=soundcloud&utm_campaign=share&utm_medium=twitter' target='_blank'>こちらから</a>"
+    },{
+        "id": 2,
+        "image": "/common/images/news/news-img-1.jpg",
+        "title": "Diverse System様のRADIALにTakahiro Eguchiが参加させて頂きました。",
+        "date": "2016-08-09",
+        "category": "join",
+        "link": "",
+        "word": "Diverse System様のRADIALにTakahiro Eguchiが参加させて頂きました。詳しくは<a href='http://radial.diverse.jp/' target='_blank'>こちらから</a>"
+    },{
+        "id": 1,
+        "image": "/common/images/news/news-img-1.jpg",
+        "title": "Diverse System様のAD:HOUSE5にTakahiro Eguchiが参加させて頂きました。",
+        "date": "2016-08-09",
+        "category": "join",
+        "link": "",
+        "word": "Diverse System様のAD:HOUSE5にTakahiro Eguchiが参加させて頂きました。詳しくは<a href='http://adh5.diverse.jp/' target='_blank'>こちらから</a>"
+    }
+  ]
+}

@@ -1,0 +1,235 @@
+.canvas-outer
+{
+    position: absolute;
+    z-index: -1;
+
+    width: 1280px;
+    height: 452px; 
+
+    background-color: #4e4e59;
+}
+
+.re-music-area
+{
+    width: 1060px;
+    margin: 0 auto 15px;
+    padding: 20px 0;
+
+    color: #fff;
+}
+.re-music-area .re-music-area-left
+{
+    float: left; 
+
+    margin-right: 29px;
+}
+.re-music-area .re-music-area-left img
+{
+    width: 411px;
+}
+.re-music-area .re-music-area-right
+{
+    float: left;
+
+    width: 620px;
+}
+.re-music-area .re-music-area-right .re-album-title
+{
+    font-size: 67px;
+    font-weight: 200;
+    line-height: 1;
+
+    margin: -12px 0 17px -10px;
+}
+.re-music-area .re-music-area-right .re-info-btn-gather
+{
+    margin-bottom: 53px;
+}
+.re-music-area .re-music-area-right .re-info-btn-gather li
+{
+    display: inline-block;
+}
+.re-music-area .re-music-area-right .re-info-btn-gather a
+{
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 20px; 
+
+    display: block;
+
+    width: 200px;
+    height: 23px;
+
+    text-align: center;
+
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+.re-music-gather .music-name-list
+{
+    font-size: 12px; 
+
+    margin-bottom: 9px;
+}
+.re-music-gather .music-name-list:last-child
+{
+    margin-bottom: 0;
+}
+.re-music-gather .music-name-list a
+{
+    display: block;
+
+    width: 620px;
+    height: 12px;
+
+    color: #fff;
+}
+.re-music-gather .music-name-list .music-num
+{
+    display: inline-block;
+    float: left;
+
+    margin-right: 22px;
+}
+.re-music-gather .music-name-list .music-name
+{
+    display: inline-block;
+    float: left;
+
+    width: 292px;
+}
+.re-music-gather .music-name-list .music-artist
+{
+    display: inline-block;
+    float: left;
+}
+
+.re-lineup-area
+{
+    width: 1060px;
+    margin: 0 auto 180px;
+}
+.re-lineup-area .re-lineup-title
+{
+    font-size: 36px;
+
+    margin-bottom: 10px;
+}
+.re-lineup-area .re-lineup-works-gather li
+{
+    float: left;
+
+    margin: 0 7px 7px 0;
+
+    cursor: pointer;
+}
+.re-lineup-area .re-lineup-works-gather li:nth-child(5n+5)
+{
+    margin-right: 0;
+}
+.re-lineup-area .re-lineup-works-gather li img
+{
+    width: 206px;
+}
+
+#modal-container
+{
+    position: relative;
+    z-index: 42;
+    top: 0;
+    top: 50%;
+    left: 0;
+
+    display: none;
+
+    width: 740px;
+    margin: 0 auto;
+
+    -webkit-transform: translateY(-50%);
+       -moz-transform: translateY(-50%); 
+        -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+
+    background-color: #fff;
+}
+
+#modal-overlay
+{
+    position: fixed;
+    z-index: 21;
+    top: 0;
+    left: 0;
+
+    display: none;
+
+    width: 100%;
+    height: 120%;
+
+    opacity: .7; 
+    background-color: #000;
+}
+
+#modal-contents
+{
+    position: relative;
+
+    overflow: hidden; 
+
+    width: 100%;
+}
+
+.wrap-fixed
+{
+    position: fixed;
+    left: 50%;
+
+    -webkit-transform: translateX(-50%);
+       -moz-transform: translateX(-50%); 
+        -ms-transform: translateX(-50%);
+            transform: translateX(-50%);
+}
+
+#modal-contents .modal-store
+{
+    font-size: 30px;
+
+    margin-top: 30px; 
+
+    text-align: center;
+}
+
+#modal-contents ul
+{
+    width: 640px;
+    margin: 20px auto 30px;
+}
+
+#modal-contents li
+{
+    display: inline-block;
+
+    margin-right: 14px;
+    margin-bottom: 15px;
+}
+#modal-contents li:nth-child(3n)
+{
+    margin-right: 0;
+}
+
+#modal-contents a
+{
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 20px; 
+
+    display: block;
+
+    width: 200px;
+    height: 23px;
+
+    text-align: center;
+
+    color: #000;
+    border: 1px solid #000;
+}

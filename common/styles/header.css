@@ -1,0 +1,56 @@
+header
+{
+    position: relative; 
+
+    height: 143px;
+    padding: 0 90px;
+}
+header .header-inner
+{
+    padding-top: 33px;
+
+    text-align: center;
+}
+header .header-inner .logo-text
+{
+    float: left;
+}
+header .header-inner .logo-text img
+{
+    width: 173px;
+}
+header .header-inner .logo-mark
+{
+    position: absolute;
+    top: 20px;
+    left: 50%;
+
+    margin-left: -16px; 
+
+    text-align: center;
+}
+header .header-inner .logo-mark img
+{
+    width: 33px;
+}
+header .header-inner nav
+{
+    float: right;
+
+    padding-top: 34px;
+}
+header .header-inner li
+{
+    display: inline-block;
+
+    margin-left: 41px;
+}
+header .header-inner li a
+{
+    font-family: 'Arial';
+    font-size: 18px;
+
+    display: block; 
+
+    color: #000;
+}

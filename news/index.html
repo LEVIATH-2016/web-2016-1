@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html prefix="og: http://ogp.me/ns#" class="no-js">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="format-detection" content="telephone=no">
+
+<title>NEWS|LEVIATH</title>
+<meta name="description" content="LEVIATH(リヴィアス)のニュース情報です。">
+<meta name="keywords" content="LEVIATH,同人,web,音楽,イラスト,デザイン,news,ニュース,情報">
+
+<!-- sns -->
+
+<meta id="tw-text" property="tw:description" content="LEVIATH(リヴィアス)のニュース情報です。｜LEVIATH" />
+
+<meta property="og:title" content="NEWS|LEVIATH">
+<meta property="og:description" content="LEVIATH(リヴィアス)のニュース情報です。">
+<meta property="og:url" content="http://leviath.jp/news/">
+<meta property="og:image" content="http://leviath.jp/common/images/og_img.jpg">
+
+<!--#include virtual="/common/inc/head.html" -->
+
+<link rel="stylesheet" href="/news/styles/news.css">
+
+<script src="scripts/sns.js"></script>
+<script src="scripts/createHtml.js"></script>
+<script src="scripts/newsMain.js"></script>
+
+</head>
+
+<body>
+
+<script>
+    ! function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0],
+            p = /^http:/.test(d.location) ? 'http' : 'https';
+        if (!d.getElementById(id)) {
+            js = d.createElement(s);
+            js.id = id;
+            js.src = p + '://platform.twitter.com/widgets.js';
+            fjs.parentNode.insertBefore(js, fjs);
+        }
+    }(document, 'script', 'twitter-wjs');
+</script>
+
+<!--#include virtual="/common/inc/header.html" -->
+
+<div id="news-page" class="main">
+
+<div class="news-background-left news-background"><img src="./images/back-left.jpg" alt=""></div>
+<div class="news-background-right news-background"><img src="./images/back-right.jpg" alt=""></div>
+
+<div class="news-wrap clearfix">
+
+<script type="text/x-handlebars-template" id="news-list">
+
+{{#each news}}
+
+<section class="news-section news-section-{{convert id}}" data-category="{{category}}" data-date="{{date}}">
+
+<div class="news-section-top">
+	<img src="{{image}}" class="news-img">
+	<time>{{dateShow}}</time>
+	<h1 class="news-title">{{title}}</h1>
+	<p class="news-words">{{{word}}}</p>
+</div>
+	<ul class="news-sns">
+		<li class="news-sns-list news-sns-tw"><img src="./images/sns-tw.png"></li>
+	</ul>
+</section>
+
+{{/each}}
+</script>
+
+</div>
+
+<!--#include virtual="/common/inc/footer.html" -->
+
+</div>
+
+</body>
+</html>
